@@ -46,15 +46,15 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
-  --  {
-  --   "codota/tabnine-nvim",
-  --   event = "BufEnter",
-  --   enabled = true,
-  --   build = "./dl_binaries.sh",
-  --   config = function()
-  --     require "custom.configs.tabnine"
-  --   end,
-  -- },  -- 
+   {
+    "codota/tabnine-nvim",
+    event = "BufEnter",
+    enabled = true,
+    build = "./dl_binaries.sh",
+    config = function()
+      require "custom.configs.tabnine"
+    end,
+  },  -- 
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
